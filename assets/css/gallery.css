@@ -1,3 +1,4 @@
+
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 
 
@@ -59,47 +60,40 @@
 }
 
 #galleryImg span {
-    font-size: 30px;
+    font-size: 60px;
     position: absolute;
-    color: #ffffffea;
+    color: #cacacaea;
     line-height: 0;
-    height: 80px;
-    width: 80px;
-
-    border-radius: 50%;
-
-    border: 1px solid #ffffffea;
-
+    height: 120px;
+    width: 100px;
+    
+    
     display: inline-flex;
     align-items: center;
     justify-content: center;
-
+    
     cursor: pointer;
 }
 
 #galleryImg span:hover {
     color: #ffffffea;
-    border: 1px solid #cacacaea;
 }
 
 #galleryImg span.arrowLeft {
     top: 50%;
-    left: -150px;
+    left: -200px;
 }
 
 #galleryImg span.arrowRight {
     top: 50%;
-    Right: -150px;
+    Right: -200px;
 }
 
 #galleryImg span.arrowCross {
-    display: block;
-    text-align: center;
-
+    font-size: 40px;
     color: #a01910ea;
-    border: none;
 
-    top: 0;
+    top: -40px;
     right: -120px;
 }
 
